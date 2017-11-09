@@ -1,0 +1,9 @@
+.container {
+display: block;
+height: 100vh;
+width: 100vw;
+}
+.purple {
+background-color: #7D33FF;
+display: flex;
+}
