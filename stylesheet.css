@@ -1,3 +1,8 @@
+body{
+	margin:0;
+	border:0;
+	padding:0;
+}
 .container {
 display: block;
 height: 100vh;
@@ -5,16 +10,28 @@ width: 100vw;
 }
 .green {
   display: flex;
+ 
+}
+.yellow {
+	display: flex;
+	height: calc(20vh - 6px);
 }
 .purple {
 background-color: #7D33FF;
 display: flex;
-  height: 50vh;
+  height: 80vh;
   width: 50vw;
 }
 .blue {
   background-color: #3633FF;
   display: flex;
-  height: 50vh;
+  height: 80vh;
   width: 50vw;
+}
+.button {
+	background-color: #FF33E3;
+	height:calc(20vh - 6px);
+	width: 10vw;
+	margin: auto;
+    border: 3px solid green;
 }
